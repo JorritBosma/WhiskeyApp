@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+
+.heading {
+    background-color: black;
+   
+}
+
+/* .main {
+    background-image: url(imgs/background-landing.jpg);
+    background-position: 0, Y;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+h1, .lead {
+    color: #a65906;
+}
+
+.internalLink {
+    margin-top: 2rem;
+    background-color: rgb(48, 27, 13);
+    border-color: #CEC7BD;
+    color: #a65906;
+}
+
+.internalLink:hover {
+    color: #0E3B2D;
+    text-decoration: none;
+    background-color: #B4A550;
+}

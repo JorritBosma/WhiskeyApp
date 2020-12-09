@@ -1,0 +1,65 @@
+body {
+    background-color: #a65906;
+    font-family: 'Mukta', sans-serif;
+}
+
+.blurb h2 {
+    color:  #B4A550;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: black;
+    font-weight: 100;
+    font-size: 1.1245rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    color: #CEC7BD;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #CEC7BD;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #B4A550;
+}
+
+#mainNavbar .navbar-brand {
+    color: #B4A550;
+}
+
+#header-top {
+    color: #CEC7BD;
+}
+
+#header-top span {
+    color: #B4A550;
+}
+
+#header-top h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background-color: #0E3B2D;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #header-top h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
